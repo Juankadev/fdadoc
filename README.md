@@ -1,14 +1,15 @@
 # Instructivo para el Sistema Automatizador de FDA y Proformas
 Este instuctivo tiene como fin capacitar al usuario en el uso del sistema automatizador de FDA y Proformas.
-
-
-
+<br> 
+<br> 
 ## Que realiza el sistema?
 El sistema se encarga de completar y descargar los formularios de FDA y las Proformas de manera automática. Indicando un link de google sheet y un número de envío (o varios, o un rango desde - hasta), el sistema tomará como referencia estos datos proporcionados para buscar los campos (celdas) que esten relacionados a este/estos número/s de envío y poder utilizarlos para realizar el proceso de forma automática. 
 Una vez terminado el proceso, el sistema guardará las descargas del FDA y la Proforma en una carpeta que tendrá como nombre el número de envío relacionado a estos archivos. Puede ya existir esta carpeta o no (si no existe, el sistema la crea automaticamente)
-
-
+<br> 
+<br> 
 ## Interfaz de usuario
+<img src="Interfaz.png"/>
+
 En la interfaz vamos a encontrar distintos inputs que el usuario deberá completar. A continuacion, pasamos a explicar que dato se debe ingresar en cada uno:
 
 ### Enlace de google sheet:
@@ -21,19 +22,24 @@ Clickeando en este espacio, se abrirá el explorador de archivos para que el usu
 Acá el usuario deberá indicar el número de envío que se usará como referencia para tomar los datos y realizar el proceso de forma automática. El usuario puede indicar simplemente un número de envío, o puede indicar varios (en caso de ser varios, deberán estar separados por ;)
 
 ### Check box 'Habilitar ingreso por rango'
+<img src="Intefraz - rango.png"/>
 Este check box está pensado para los casos en el que el usuario desee realizar el proceso para un rango de números de envío (ejemplo: 1 - 10). En caso de estar habilitado, se mostrarán 2 espacios para realizar el ingreso de este rango de numeros de envío.
-
-
-
+<br> 
+<br> 
 ## Validaciones
 El sistema valida que los ingresos sean correctos. A continuación, detallamos algunos errores que pueden surgir:
 
 ### Error - URL de google sheet y carpeta de destino sin completar
+<img src="Error - URL y carpeta de destino.png"/>
 
 ### Error - N° de envío sin completar
+<img src="Error - N° de envío.png"/>
 
 ### Error - URL de google sheet inválida
+<img src="Error - URL inválida.png"/>
 
 ### Error - Rango de envíos sin completar
+<img src="Error - Rango de envíos.png"/>
 
 ### Error - N° de envío inicial mayor al N° de envío final
+<img src="Error - Rango de envío final menor que el inicial.png"/>
