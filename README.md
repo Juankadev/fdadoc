@@ -1,4 +1,4 @@
-# Instructivo para el Sistema Automatizador de FDA y Proformas
+# Instructivo para el uso del Sistema Automatizador de FDA y Proformas
 Este instuctivo tiene como fin capacitar al usuario en el uso del sistema automatizador de FDA y Proformas.
 <br> 
 <br> 
