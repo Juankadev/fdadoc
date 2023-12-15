@@ -1,3 +1,6 @@
+![este-si](https://github.com/Juankadev/fdadoc/assets/54191222/73747ff9-efcb-45db-9ff6-c1dcf05c5dc3)
+
+
 # Instructivo para el uso del Sistema Automatizador de FDA y Proformas
 Este instuctivo tiene como fin capacitar al usuario en el uso del sistema automatizador de FDA y Proformas.
 <br> 
